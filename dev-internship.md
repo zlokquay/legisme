@@ -35,7 +35,7 @@
 ### App - Model, View, Controller (MVC) backend with Ruby on Rails
 - Save data to PostgreSQL with Rails and Active Record
 - Navigate around app using Ruby on Rails MVC conventions
-- Use the `HTTParty` gem to make HTTP requests from the backend instead of `fetch`
+- Use the `HTTParty` gem to make HTTP requests from the backend instead of [`fetch`](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch)
 - Deploy app to Heroku and get used to CORS
 - Basic Authentication model with JSON Web Tokens (JWTs)
 
