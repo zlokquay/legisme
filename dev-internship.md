@@ -17,7 +17,7 @@
 - Use [Promises](https://developers.google.com/web/fundamentals/primers/promises) and [async](https://ponyfoo.com/articles/understanding-javascript-async-await) functions to handle data
 - Display many and single vehicles by Tag number
 - Let users search for their vehicle by Tag number
-- Style it with some css using [flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
+- Style it with some CSS using [flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) and [bootstrap](https://getbootstrap.com/docs/4.0/getting-started/download/)
 
 ### Suggested Reading:
 - [You Don't Know JS by Kyle Simpson](https://github.com/getify/You-Dont-Know-JS)
@@ -35,6 +35,7 @@
 - https://www.codewars.com/kata/directions-reduction (Level 5)
 
 ### App - Model, View, Controller (MVC) backend with [Ruby on Rails](http://guides.rubyonrails.org/v5.0/getting_started.html)
+- **Hide any API keys you use from Github using the .gitignore file.**
 - Save data to PostgreSQL with Rails and Active Record
 - Navigate around app using Ruby on Rails MVC conventions
 - Use the [HTTParty](https://github.com/jnunemaker/httparty) gem to make HTTP requests from the backend instead of [fetch](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch)
