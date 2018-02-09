@@ -199,18 +199,18 @@ That's it! We should now see our new changes reflected in our Github repository 
 
 #### Git
 ```
-git init - Initialize a new git repository
-git add - add untracked files and changes to tracked files to Staging
-git commit - add changes to a new commit, use the -m flag to include a commit message from the command line
-git checkout - switch to a new branch, add the -b flag to create a new branch
-git merge <from_branch> - merge changes from one branch into your working branch
-git log - see past commits
-git status - see the current status of commit, what changes have been added to changing
+git init # Initialize a new git repository
+git add # add untracked files and changes to tracked files to Staging
+git commit # add changes to a new commit, use the -m flag to include a commit message from the command line
+git checkout # switch to a new branch, add the -b flag to create a new branch
+git merge <from_branch> # merge changes from one branch into your working branch
+git log # see past commits
+git status # see the current status of commit, what changes have been added to changing
 ```
 
 #### Git with Github
 ```
-git push <remote> <branch> - push code from <branch> to the <remote> where your repository is hosted.
-git pull <remote> <branch> - pull code from <branch> that is hosted by <remote> and merge it into your local repository. Can lead to merge conflicts.
-git clone <url> - copies a repository from a remote repository to the environment you're working in
+git push <remote> <branch> # push code from <branch> to the <remote> where your repository is hosted.
+git pull <remote> <branch> # pull code from <branch> that is hosted by <remote> and merge it into your local repository. Can lead to merge conflicts.
+git clone <url> # copies a repository from a remote repository to the environment you're working in
 ```
