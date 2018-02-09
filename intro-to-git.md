@@ -141,11 +141,11 @@ Notice that we haven't touched Github at this point, everything we've done has b
 
 ![new repo button](images/github-new-repo.png)
 
-3. This should take you to a new repository creation screen which should look something like this:
+####3. This should take you to a new repository creation screen which should look something like this:
 
 ![new repo screenshot](images/new-repo-screen.png)
 
-4. Enter in a name for the repository and click the `Create repository` button, which should bring you to...
+####4. Enter in a name for the repository and click the `Create repository` button, which should bring you to...
 
 ![new repo cli commands](images/new-repo-cli-commands.png)
 
@@ -174,4 +174,43 @@ cd ~
 rm -rf git-intro
 git clone https://github.com/dcordz/intro-repo.git # the url you copied will be different
 cd git-intro
+```
+
+What we've done here is to destroy and then `clone` down our git repo from Github.
+
+As a final step, lets make a change and push it up to Github.
+
+```
+git checkout -b intro
+echo "Adding a new line for pushing up to Github" < intro.txt
+git status
+git add -u
+git status
+git commit -m "created a new branch and added a line for tracking"
+git push origin intro
+git checkout master
+git merge intro
+git push origin master
+```
+
+That's it! We should now see our new changes reflected in our Github repository along with our new branch `intro`, which should match the code in `master`.
+
+## Useful commands
+
+#### Git
+```
+git init - Initialize a new git repository
+git add - add untracked files and changes to tracked files to Staging
+git commit - add changes to a new commit, use the -m flag to include a commit message from the command line
+git checkout - switch to a new branch, add the -b flag to create a new branch
+git merge <from_branch> - merge changes from one branch into your working branch
+git log - see past commits
+git status - see the current status of commit, what changes have been added to changing
+```
+
+#### Git with Github
+```
+git push <remote> <branch> - push code from <branch> to the <remote> where your repository is hosted.
+git pull <remote> <branch> - pull code from <branch> that is hosted by <remote> and merge it into your local repository. Can lead to merge conflicts.
+git clone <url> - copies a repository from a remote repository to the environment you're working in
 ```
